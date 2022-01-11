@@ -6,7 +6,7 @@ import scrapy
     # crawl href link to get product type, vendor, product name, and cvss score
     # goto next page
 class CVEspider(scrapy.Spider):
-    name = "CVE_2020"
+    name = "CVE_2021"
     # basic_url = ['https://www.cvedetails.com/']
     allowed_domain = ['www.cvedetails.com']
     start_urls = [
